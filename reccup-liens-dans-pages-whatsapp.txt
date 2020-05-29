@@ -1,0 +1,24 @@
+var anchors = document.getElementsByTagName('a');
+var i, len = anchors.length;
+
+for( i = 0; i < len; i++ ) {
+
+    var mailist = anchors[i].getAttribute('href');
+
+var textzone = document.querySelector("#main > footer > div._3pkkz.V42si.copyable-area > div._1Plpp > div > div._2S1VP.copyable-text.selectable-text");
+
+ textzone.innerHTML+=mailist+" ; ";
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
